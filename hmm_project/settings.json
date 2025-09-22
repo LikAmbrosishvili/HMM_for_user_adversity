@@ -1,0 +1,12 @@
+{
+    "window.experimental.settingsDeveloperMode": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        "./hmm_model", 
+        "/opt/miniconda3/envs/hmm/lib/python3.9/site-packages"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "python.defaultInterpreterPath": "/opt/miniconda3/envs/hmm/bin/python"
+}
